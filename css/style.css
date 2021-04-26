@@ -18,8 +18,8 @@
 }
 
 .product {
-    width: 300px;
-    height:600px;
+    width: 32%;
+    height:550px;
     background-color: beige;
     margin-top: 10px;
     margin-left: 10px;
@@ -41,6 +41,14 @@
 
 
 /* utility class end */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: azure;
+    /* altezza da rimuovere a fine test - sarà determinata dai box */
+    height: 600px;
+}
+
 
 .discount {
     position: absolute;
@@ -49,7 +57,9 @@
     /* width: 20px;
     height: 20px; */
     font-size: 12px;
-    border: 1px solid black;
+    border: 1px solid red;
+    padding: 3px;
+    font-size: 12px;
     background-color: red;
     color: white;
     
@@ -62,13 +72,15 @@
     bottom: 15px;
     left: 40px;
     background-color: green;
+    border: 1px solid green;
     color: white;
+    padding: 3px;
     font-size: 12px;
     
 }
 
 
-.product-img {
+.first-product-img  {
     background-image: url('../img/1.webp');
     background-position: center;
     background-size: cover;
@@ -78,22 +90,81 @@
 
 }
 
+.first-product-img:hover  {
+    background-image: url('../img/1-hover.webp');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
 
-main {
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: azure;
-    /* altezza da rimuovere a fine test - sarà determinata dai box */
-    height: 600px;
 }
+
+.second-product-img{
+    background-image: url('../img/2.webp');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+
+.second-product-img:hover {
+    background-image: url('../img/2-hover.webp');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+
+.third-product-img{
+    background-image: url('../img/3.webp');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+
+.third-product-img:hover {
+    background-image: url('../img/3-hover.webp');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+
+
+
+/* .first-img {
+    background-image: url('../img/1.webp');
+
+}
+.first-img:hover {
+    background-image: url('../img/1-hover.webp');
+
+} */
+
+
+
+
+
+
+
 
 .item {
     width: 100%;
-    background-color: coral;
+    /* background-color: coral; */
     
 }
 
-h6 {
+.item span {
     font-size: 18px;
 }
 .price {
