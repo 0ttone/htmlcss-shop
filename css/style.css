@@ -41,14 +41,18 @@
 
 
 /* utility class end */
+
+
 main {
     max-width: 1000px;
-    margin: 0 auto;
-    background-color: azure;
-    /* altezza da rimuovere a fine test - sarà determinata dai box */
-    height: 600px;
+    margin: 50px auto;
+    background-color: aliceblue;
+    /* altezza da rimuovere a fine test - 
+    sarà determinata dai box in float */
+    /* height: 600px; */
 }
 
+/* rettangoli interni absolute */
 
 .discount {
     position: absolute;
@@ -79,6 +83,24 @@ main {
     
 }
 
+/* dati prodotto div item */
+
+
+.item {
+    width: 100%;
+    /* background-color: coral; */
+    
+}
+
+.item span {
+    font-size: 18px;
+}
+.price {
+    font-size: 18px;
+
+}
+
+/* immagini background con e senza hover DA RIVEDERE!!!!!!!! */
 
 .first-product-img  {
     background-image: url('../img/1.webp');
@@ -215,19 +237,3 @@ main {
 
 
 
-
-
-
-.item {
-    width: 100%;
-    /* background-color: coral; */
-    
-}
-
-.item span {
-    font-size: 18px;
-}
-.price {
-    font-size: 18px;
-
-}
