@@ -1,0 +1,33 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* utility class start */
+
+.fl {
+    float: left;
+}
+
+.product {
+    width
+
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: azure;
+    /* altezza da rimuovere a fine test - sarà determinata dai box */
+    height: 600px;
+}
+
